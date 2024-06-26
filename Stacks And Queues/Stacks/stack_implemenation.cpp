@@ -16,7 +16,7 @@ class Stack {
     void push(int element) {
         if(size-top>1) {
             top++;
-            arr[top]=element;
+            arr[top]=element; 
         }
         else {
             cout<<"Stack Overflow"<<endl;
@@ -46,6 +46,9 @@ class Stack {
         else {
             return false;
         }
+    }
+    void disp() {
+
     }
 };
 int main()
